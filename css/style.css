@@ -93,3 +93,46 @@ li a {
     line-height: 180%; /* 34.2px */
     letter-spacing: -0.19px;
 }
+
+.square {
+    width: 220px;
+    height: 65px;
+    display: flex;
+    padding: 20px 53px 21px 53px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FFCA42;
+    margin-top: 49px;
+}
+
+.h61 {
+    color: #1B3764;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 23.75px */
+    letter-spacing: 0.38px;
+}
+
+.h62 {
+    color: #FFF;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 23.75px */
+    letter-spacing: 0.38px;
+    padding-top: 47px;
+    
+}
+
+.sec1div2 {
+    display: flex;
+    width: 414px;
+    align-items: center;
+    gap: 37px;
+}
