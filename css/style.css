@@ -160,15 +160,78 @@ li a {
     font-weight: 700;
     line-height: 120%; /* 28.8px */
     letter-spacing: -0.24px;
-    padding-bottom: 11px;
+    padding-bottom: 30px;
 }
 
 h4 span {
     color: #B4C7E7;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 170%; /* 30.6px */
     letter-spacing: -0.18px;
+}
+
+.sec-2 {
+    background-color: #F4F8FF;
+    height: 650px;
+}
+
+.sec2div1 {
+    padding-top: 40px;
+}
+.sec2div1 h6 {
+    width: 567px;
+    height: 128px;
+    color: #969AA0;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 34.2px */
+    letter-spacing: -0.7px;
+    padding-top: 22px;
+    
+}
+
+.sec2div1 h2 {
+    color: #1B3764;
+    font-family: Cardo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+}
+
+.sec-3 {
+    background-color: #FFCA42;
+    height: 900px;
+}
+
+.sec3div1 {
+    padding-top: 40px;
+}
+.sec3div1 h2 {
+    color: #1B3764;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+    padding-bottom: 15px;
+}
+
+.sec3div1 h6 {
+    color:#5d4915;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 34.2px */
+    letter-spacing: -0.19px;
+    
 }
