@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     width: 100%;
     padding: 20px 0;
@@ -8,11 +12,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1B3764; 
+    background-color: #1b3764;
 }
 
 .container1 {
-    width: 1300px;
+    max-width: 1300px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -20,17 +25,18 @@ header {
 }
 
 .container2 {
-    width: 1300px;
+    max-width: 1300px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    
 }
 
 .container {
-    width: 1300px;
+    max-width: 1300px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -42,13 +48,13 @@ ul {
 }
 
 li a {
-    color: #FFF;
+    color: #fff;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%; /* 21.25px */
     letter-spacing: -0.17px;
-    margin-left: 30px; 
+    margin-left: 30px;
 }
 
 .log {
@@ -58,14 +64,13 @@ li a {
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-left: 1px;
 }
 
 .sec-1 {
-    background-color: #1B3764 ;
-    margin-top: 76px;
-    height: 950px;
+    background-color: #1b3764;
+    padding: 100px 0;
 }
 
 .sec1div {
@@ -75,7 +80,7 @@ li a {
 }
 
 .h5 {
-    color:#FFF;
+    color: #fff;
     font-family: Cardo;
     font-size: 19px;
     font-style: italic;
@@ -86,7 +91,7 @@ li a {
 }
 
 .h1 {
-    color: #FFF;
+    color: #fff;
     font-family: Cardo;
     font-size: 65px;
     font-style: normal;
@@ -97,7 +102,7 @@ li a {
 }
 
 .h6 {
-    color: #B4C7E7;
+    color: #b4c7e7;
     font-family: Inter;
     font-size: 19px;
     font-style: normal;
@@ -114,12 +119,12 @@ li a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: #FFCA42;
+    background: #ffca42;
     margin-top: 49px;
 }
 
 .h61 {
-    color: #1B3764;
+    color: #1b3764;
     text-align: center;
     font-family: Cardo;
     font-size: 19px;
@@ -131,7 +136,7 @@ li a {
 }
 
 .h62 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Cardo;
     font-size: 19px;
@@ -141,7 +146,6 @@ li a {
     letter-spacing: 0.38px;
     padding-top: 47px;
     align-items: center;
-    
 }
 
 .sec1div2 {
@@ -163,7 +167,7 @@ li a {
 }
 
 .textdiv h4 {
-    color: #FFF;
+    color: #fff;
     font-family: Cardo;
     font-size: 24px;
     font-style: normal;
@@ -174,7 +178,7 @@ li a {
 }
 
 h4 span {
-    color: #B4C7E7;
+    color: #b4c7e7;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -184,8 +188,8 @@ h4 span {
 }
 
 .sec-2 {
-    background-color: #F4F8FF;
-    height: 650px;
+    background-color: #f4f8ff;
+    padding: 100px 0;
 }
 
 .sec2div1 {
@@ -194,7 +198,7 @@ h4 span {
 .sec2div1 h6 {
     width: 567px;
     height: 128px;
-    color: #969AA0;
+    color: #969aa0;
     font-family: Inter;
     font-size: 19px;
     font-style: normal;
@@ -202,11 +206,10 @@ h4 span {
     line-height: 180%; /* 34.2px */
     letter-spacing: -0.7px;
     padding-top: 22px;
-    
 }
 
 .sec2div1 h2 {
-    color: #1B3764;
+    color: #1b3764;
     font-family: Cardo;
     font-size: 45px;
     font-style: normal;
@@ -216,16 +219,26 @@ h4 span {
 }
 
 .sec-3 {
-    background-color: #FFCA42;
-    height: 900px;
+    background-color: #ffca42;
+    padding: 100px 0;
+}
+
+.container3 {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sec3div1 {
     padding-top: 40px;
+    max-width: 600px;
+    width: 100%;
 }
 
 .sec3div1 h2 {
-    color: #1B3764;
+    color: #1b3764;
     text-align: center;
     font-family: Cardo;
     font-size: 45px;
@@ -237,12 +250,11 @@ h4 span {
 }
 
 .sec3div1 h6 {
-    color:#5d4915;
+    color: #5d4915;
     font-family: Inter;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 180%; /* 34.2px */
-    letter-spacing: -0.19px; 
+    letter-spacing: -0.19px;
 }
-
