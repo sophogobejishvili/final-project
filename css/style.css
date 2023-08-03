@@ -32,6 +32,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -40,6 +41,7 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -55,6 +57,10 @@ li a {
     line-height: 125%; /* 21.25px */
     letter-spacing: -0.17px;
     margin-left: 30px;
+}
+
+li a:hover {
+    color: #ffca42;
 }
 
 .log {
@@ -198,7 +204,7 @@ h4 span {
 .sec2div1 h6 {
     width: 567px;
     height: 128px;
-    color: #969aa0;
+    color: #787c84;
     font-family: Inter;
     font-size: 19px;
     font-style: normal;
@@ -225,10 +231,11 @@ h4 span {
 
 .container3 {
     max-width: 1300px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sec3div1 {
