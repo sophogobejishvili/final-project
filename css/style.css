@@ -287,6 +287,7 @@ h4 span {
     background-size: cover;
     background-position:center;
 }
+
 /*section 4*/
 
 .sec-4 {
@@ -330,6 +331,31 @@ h4 span {
     margin-top: 45px;
 }
 /*section 5*/
+
+.sec-5 {
+     background-color: #1b3764;
+     padding: 100px 0;
+}
+
+.sec5div1 h2 {
+    color: #ffca42;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+}
+
+.gg {
+    width: 250px;
+    height: 395px;
+}
+
+
+
+
+
+
 
 /*footer*/
 
