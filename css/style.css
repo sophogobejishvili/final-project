@@ -72,15 +72,14 @@ li a:hover {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .sec1div {
-    width: 614px;
     padding-top: 145px 0;
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: nowrap;
 }
 
 .h5 {
@@ -162,15 +161,14 @@ li a:hover {
 
 .sec1div2 {
     display: flex;
-    width: 414px;
+    justify-content:flex-start;
     align-items: center;
+    flex-wrap: nowrapW;
     gap: 37px;
 }
 
 .book {
     padding-top: 70px;
-    background-size: cover;
-    background-position:center;
 }
 
 .textdiv {
@@ -210,6 +208,8 @@ h4 span {
 }
 
 .sec2div1 {
+    max-width: 600px;
+    width: 100%;
     padding-top: 40px;
 }
 
@@ -219,7 +219,6 @@ h4 span {
 }
 
 .sec2div1 p {
-    width: 567px;
     color: #787c84;
     font-family: Inter;
     font-size: 19px;
@@ -317,6 +316,20 @@ h4 span {
     margin-top: 15px;
 }
 
+.p2 {
+    margin-top: 30px;
+}
+
+.sec4div1 h4 {
+    color: #0f2444;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.19px;
+    margin-top: 45px;
+}
+/*section 5*/
 
 /*footer*/
 
