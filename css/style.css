@@ -175,6 +175,7 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 49px;
 }
 
@@ -368,6 +369,7 @@ h4 span {
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
     margin-bottom: 60px;
+    align-items: center;
 }
 
 .sec5div2 h4 {
@@ -386,6 +388,7 @@ h4 span {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sec5div1 {
@@ -394,6 +397,7 @@ h4 span {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .gg {

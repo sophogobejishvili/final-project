@@ -36,14 +36,22 @@
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:577px) {
     .h1 {
         font-size: 60px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 110%; /* 71.5px */
-        letter-spacing: -1.3px;
-        margin-bottom: 32px;
+    }
+       
+}
+
+@media (max-width:534px) {
+    .h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:487px) {
+    .h1 {
+        font-size: 50px;
     }
 }
 
@@ -86,13 +94,36 @@
     }
 
     .h1 {
-        font-size: 50px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: 110%; /* 71.5px */
         letter-spacing: -1.3px;
         margin-bottom: 32px;
     }
+
+    .square2 {
+        width: 220px;
+        height: 65px;
+        display: flex;
+        padding: 0px 10px 42px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: #ffca42;
+    }
+    
+    .h62 {
+         color: #1b3764;
+        text-align: center;
+        font-family: Cardo;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; /* 23.75px */
+        letter-spacing: 0.38px;
+        align-items: center;
+    } 
 }
 
 @media (max-width:412px) {
@@ -111,6 +142,16 @@
     }
 }
 
+@media (max-width:385px) {
+    .book2 {
+        background-size: cover;
+        background-position:center;
+        width: 330px;
+        height: 400px;
+    }
+
+}
+
 @media (max-width:378px) {
     .book {
         background-size: cover;
@@ -121,8 +162,8 @@
     .book2 {
         background-size: cover;
         background-position:center;
-        width: 330px;
-        height: 400px;
+        width: 320px;
+        height: 390px;
     }
    
     .temuri {
@@ -135,9 +176,17 @@
 
 @media (max-width:365px) {
     .h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
+
+
+@media (max-width:350px) {
+    .h1 {
+        font-size: 35px;
+    }
+}
+
 
 @media (max-width:347px) {
     .book2 {
@@ -164,24 +213,42 @@
     }
 }
 
-@media (max-width:328px) {
-    .h1 {
-        font-size: 40px;
-    }
-}
 
 @media (max-width:317px)  {
     .book2 {
         background-size: cover;
         background-position:center;
         width: 270px;
-        height: 400px;
+        height: 390px;
     }
    
     .temuri {
         background-size: cover;
         background-position:center;
-        width: 270px;
+        width: 280px;
         height: 350px;
+    }
+}
+
+
+@media (max-width:305px) {
+    .h1 {
+        font-size: 30px;
+    }
+    
+    .book {
+        background-size: cover;
+        background-position:center;
+        width: 310px;
+        height: 400px;
+    }
+}
+
+@media (max-width:296px) {
+    .temuri {
+        background-size: cover;
+        background-position:center;
+        width: 260px;
+        height: 330px;
     }
 }
