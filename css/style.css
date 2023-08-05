@@ -337,6 +337,17 @@ h4 span {
      padding: 100px 0;
 }
 
+.container4 {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
 .sec5div1 h2 {
     color: #ffca42;
     font-size: 45px;
@@ -346,14 +357,25 @@ h4 span {
     letter-spacing: -0.9px;
 }
 
-.gg {
-    width: 250px;
-    height: 395px;
+
+.sec5div2 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.sec5div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 
-
-
+.gg {
+    width: 257px;
+    height: 395px;
+}
 
 
 
