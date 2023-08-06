@@ -369,7 +369,6 @@ h4 span {
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
     margin-bottom: 60px;
-    align-items: center;
 }
 
 .sec5div2 h4 {
@@ -481,5 +480,48 @@ h4 span {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer {
+    background:#0f2444;
+    padding: 100px 0;
+}
+
+.container5 h2 {
+    color: #ffca42;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+    margin-bottom: 90px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.TBC {
+    width: 150px;
+}
+
+.GEOLAB {
+    margin-left: 7px;
+    margin-bottom: 19px;
+    width: 55px;
+}
+
+.footerdiv2 {
+    display: flex;
+    align-items: center;
+}
+
+.logoebi {
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.imgdiv {
+    display: flex;
     flex-direction: column;
 }
