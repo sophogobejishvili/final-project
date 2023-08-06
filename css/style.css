@@ -37,12 +37,14 @@ ul {
 li a {
     color: #fff;
     font-size: 18px;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 125%; /* 21.25px */
     letter-spacing: -0.17px;
     margin-left: 30px;
 }
+
 
 li a:hover {
     color: #ffca42;
@@ -58,6 +60,7 @@ li a:hover {
     color: #ffffff;
     margin-left: 1px;
 }
+
 
 /*section 1*/
 
@@ -95,7 +98,7 @@ li a:hover {
 
 .h1 {
     color: #fff;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
@@ -129,7 +132,7 @@ li a:hover {
 .h61 {
     color: #1b3764;
     text-align: center;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
@@ -145,10 +148,10 @@ li a:hover {
 .h62 {
     color: #fff;
     text-align: center;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 19px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 125%; /* 23.75px */
     letter-spacing: 0.38px;
     padding-top: 47px;
@@ -181,7 +184,7 @@ li a:hover {
 
 .textdiv h4 {
     color: #fff;
-    font-family: Cardo;
+    font-family: 'Noto Serif Georgian', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -192,7 +195,7 @@ li a:hover {
 
 h4 span {
     color: #b4c7e7;
-    font-family: Inter;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -221,18 +224,18 @@ h4 span {
 
 .sec2div1 p {
     color: #787c84;
-    font-family: Inter;
+    font-family: 'Noto Serif Georgian', serif;
     font-size: 19px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 180%; /* 34.2px */
+    font-weight: 300;
+    line-height: 155%; /* 34.2px */
     letter-spacing: -0.7px;
-    padding-top: 22px;
+    padding-top: 20px;
 }
 
 .sec2div1 h2 {
     color: #1b3764;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -265,7 +268,7 @@ h4 span {
 .sec3div1 h2 {
     color: #1b3764;
     text-align: center;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -276,10 +279,10 @@ h4 span {
 
 .sec3div1 p {
     color: #5d4915;
-    font-family: Inter;
+    font-family: 'Noto Serif Georgian', serif;
     font-size: 19px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 180%; /* 34.2px */
     letter-spacing: -0.19px;
 }
@@ -304,7 +307,7 @@ h4 span {
 .sec4div1 h2 {
     color: #1b3764;
     text-align: center;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
@@ -314,7 +317,7 @@ h4 span {
 
 .sec4div1 p {
     color:#454d5e;
-    font-family: Inter;
+    font-family: 'Noto Serif Georgian', serif;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
@@ -353,8 +356,9 @@ h4 span {
 .container4 h5 {
     color:#f4f8ff;
     font-size: 25px;
+    font-family: 'Noto Serif Georgian', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
     margin-bottom: 60px;
@@ -364,6 +368,7 @@ h4 span {
 .container4 h2 {
     color: #ffca42;
     font-size: 45px;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 54px */
@@ -373,10 +378,10 @@ h4 span {
 
 .sec5div2 h4 {
     color: #fff;
-    font-family: Cardo;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-size: 22px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 120%; /* 28.8px */
     letter-spacing: -0.24px;
     padding-bottom: 25px;
@@ -443,7 +448,7 @@ h4 span {
     outline: none;
     padding: 23px 21px;
     font-size: 14px;
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -452,8 +457,9 @@ h4 span {
 .h55 {
     color:#ffca42;
     font-size: 25px;
+    font-family: 'Noto Serif Georgian', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
     margin-top: 90px;
@@ -464,7 +470,7 @@ h4 span {
     background: #5968f4;
     color: #fbfbff;
     font-size: 16px;
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -480,9 +486,9 @@ h4 span {
 ::placeholder {
     color: #99999a;
     font-size: 14px;
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -500,12 +506,13 @@ h4 span {
 
 footer {
     background:#0f2444;
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 .container5 h2 {
     color: #ffca42;
     font-size: 45px;
+    font-family: 'Noto Sans Georgian', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 54px */
@@ -547,8 +554,9 @@ footer {
 .footerdiv3 h3 {
     color:#f4f8ff;
     font-size: 30px;
+    font-family: 'Noto Serif Georgian', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
     margin-bottom: 40px;
@@ -563,6 +571,8 @@ footer {
 .div4 a {
     color:#B4C7E7;
     font-size: 22px;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: 300;
 }
 
 .footerdiv3 {
@@ -574,8 +584,9 @@ footer {
 .footerdiv4 h3 {
     color:#f4f8ff;
     font-size: 30px;
+    font-family: 'Noto Serif Georgian', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
     margin-bottom: 40px;
@@ -591,7 +602,7 @@ footer {
 
 .footerdiv4 h4 {
     color: #fff;
-    font-family: Cardo;
+    font-family: 'Noto Serif Georgian', serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -601,7 +612,7 @@ footer {
 }
 
 .div4 {
-    margin-bottom: 43px;
+    margin-bottom: 40px;
 }
 
 

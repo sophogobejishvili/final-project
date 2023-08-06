@@ -5,7 +5,7 @@
 }
 
 
-@media (max-width:1075px) {
+@media (max-width:1203px) {
     nav {
         display: none;
     }
@@ -37,20 +37,20 @@
     }
 }
 
-@media (max-width:577px) {
+@media (max-width:675px) {
     .h1 {
         font-size: 60px;
     }
        
 }
 
-@media (max-width:534px) {
+@media (max-width:622px) {
     .h1 {
         font-size: 55px;
     }
 }
 
-@media (max-width:487px) {
+@media (max-width:569px) {
     .h1 {
         font-size: 50px;
     }
@@ -82,6 +82,13 @@
     
 }
 
+@media (max-width:516px) {
+    .h1 {
+        font-size: 40px;
+    }
+
+}
+
 @media (max-width:442px) {
     .sec1div2 {
         flex-wrap: wrap;
@@ -92,15 +99,6 @@
         background-position:center;
         width: 350px;
         height: 500px;
-    }
-
-    .h1 {
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 110%; /* 71.5px */
-        letter-spacing: -1.3px;
-        margin-bottom: 32px;
     }
 
     .square2 {
@@ -116,21 +114,12 @@
     
     .h62 {
         color: #1b3764;
-        text-align: center;
-        font-family: Cardo;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 125%; /* 23.75px */
-        letter-spacing: 0.38px;
-        align-items: center;
+        font-family: 'Noto Sans Georgian', sans-serif;
     } 
 
     .h62:hover {
         color:#5d4915;
     }
-
-
 }
 
 @media (max-width:412px) {
@@ -189,19 +178,37 @@
     }
 }
 
-@media (max-width:365px) {
-    .h1 {
-        font-size: 40px;
-    }
-}
-
-
-@media (max-width:350px) {
+@media (max-width:409px) {
     .h1 {
         font-size: 35px;
     }
 }
 
+
+@media (max-width:357px) {
+    .h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width:335px) {
+    .h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:303px) {
+    .h1 {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width:282px) {
+    .h1 {
+        font-size: 25px;
+    }
+}
 
 @media (max-width:347px) {
     .book2 {
@@ -246,10 +253,15 @@
 }
 
 
-@media (max-width:305px) {
-    .h1 {
-        font-size: 30px;
+@media (max-width:307px) {
+    .container5 h2 {
+        font-size: 39px;
     }
+}
+
+
+
+@media (max-width:305px) {
     
     .book {
         background-size: cover;
@@ -268,16 +280,35 @@
     }
 }
 
-@media (max-width:286px) {
+@media (max-width:345px) {
     .footerdiv4 h4 {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .footerdiv4 span {
-        font-size: smaller;
+        font-size:x-small;
     }
 }
 
+@media (max-width:284px) {
+    .gg {
+        width: 240px;
+        height: 390px;
+    }
+    
+    .sec5div2 h4 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+}
+
+@media (max-width:268px) {
+    .gg {
+        width: 230px;
+        height: 385px;
+    }
+}    
 
 @media (max-width:287px) {
     .book2 {
@@ -286,19 +317,21 @@
     }
 }
 
-@media (max-width:273px) {
-    .temuri {
-        background-size: cover;
-        background-position:center;
-        width: 250px;
-        height: 320px;
-    }
-
+@media (max-width:256px) {
     .gg {
-        width: 240px;
-        height: 380px;
+        width: 225px;
+        height: 374px;
     }
 }
+
+
+@media (max-width:260px) {
+    .container5 h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
 
 
 @media (max-width:273px) {
@@ -320,11 +353,6 @@
     }
 }
 
-@media (max-width:258px) {
-    .h1 {
-        font-size: 25px;
-    }
-}
 
 @media (max-width:256px) {
     .book{
