@@ -115,7 +115,7 @@
     }
     
     .h62 {
-         color: #1b3764;
+        color: #1b3764;
         text-align: center;
         font-family: Cardo;
         font-size: 19px;
@@ -125,6 +125,12 @@
         letter-spacing: 0.38px;
         align-items: center;
     } 
+
+    .h62:hover {
+        color:#5d4915;
+    }
+
+
 }
 
 @media (max-width:412px) {

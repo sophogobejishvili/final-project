@@ -408,6 +408,21 @@ h4 span {
     margin-top: 30px;
 }
 
+
+.card {
+    margin: 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    cursor: pointer;
+} 
+
 .myformdiv {
     margin-top: 25px;
 }
@@ -588,3 +603,6 @@ footer {
 .div4 {
     margin-bottom: 43px;
 }
+
+
+
