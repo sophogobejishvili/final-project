@@ -410,7 +410,7 @@ h4 span {
 }
 
 .myformdiv {
-    margin-top: 2px;
+    margin-top: 25px;
 }
 
 .textareadiv {
@@ -436,13 +436,41 @@ h4 span {
 }
 
 .h55 {
-    color:#5d4915;
+    color:#ffca42;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 54px */
     letter-spacing: -0.9px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
+
+
+.submit {
+    background: #5968f4;
+    color: #fbfbff;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.submit:hover {
+    background: #2e42f5;
+}
+
+::placeholder {
+    color: #99999a;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /*footer*/
 
