@@ -409,5 +409,40 @@ h4 span {
     margin-top: 30px;
 }
 
+.myformdiv {
+    margin-top: 2px;
+}
+
+.textareadiv {
+    height: 300px;
+    max-width: 756;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.mytextarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 2px solid rgba(212, 211, 211, 0.3);
+    background: #f8f8f8;
+    outline: none;
+    padding: 23px 21px;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h55 {
+    color:#5d4915;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+    margin-top: 60px;
+}
 /*footer*/
 
