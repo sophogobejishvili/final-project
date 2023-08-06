@@ -143,6 +143,14 @@
 }
 
 @media (max-width:385px) {
+    .temuri {
+        width: 320px;
+        height: 350px;
+    }
+
+}
+
+@media (max-width:385px) {
     .book2 {
         background-size: cover;
         background-position:center;
@@ -169,7 +177,7 @@
     .temuri {
         background-size: cover;
         background-position:center;
-        width: 330px;
+        width: 310px;
         height: 350px;
     }
 }
@@ -250,5 +258,64 @@
         background-position:center;
         width: 260px;
         height: 330px;
+    }
+}
+
+@media (max-width:285px) {
+    .book2 {
+        width: 250px;
+        height: 380px;
+    }
+}
+
+@media (max-width:273px) {
+    .temuri {
+        background-size: cover;
+        background-position:center;
+        width: 250px;
+        height: 320px;
+    }
+
+    .gg {
+        width: 240px;
+        height: 380px;
+    }
+}
+
+
+@media (max-width:273px) {
+    .temuri {
+        background-size: cover;
+        background-position:center;
+        width: 235px;
+        height: 290px;
+    }
+
+    .book {
+        width: 290px;
+        height: 390px;
+    }
+
+    .book2 {
+        width: 240px;
+        height: 370px;
+    }
+}
+
+@media (max-width:258px) {
+    .h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:256px) {
+    .book{
+        width: 280px;
+        height: 380px;
+    }
+
+    .book2{
+        width: 230px;
+        height: 365px;
     }
 }
