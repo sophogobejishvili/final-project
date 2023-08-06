@@ -480,8 +480,7 @@ h4 span {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
 }
 
 footer {
@@ -506,14 +505,18 @@ footer {
 }
 
 .GEOLAB {
-    margin-left: 7px;
-    margin-bottom: 19px;
+    margin-bottom: 100px;
     width: 55px;
 }
 
 .footerdiv2 {
     display: flex;
     align-items: center;
+
+}
+
+.logoebii {
+    margin-top: 70px;
 }
 
 .logoebi {
@@ -524,4 +527,64 @@ footer {
 .imgdiv {
     display: flex;
     flex-direction: column;
+}
+
+.footerdiv3 h3 {
+    color:#f4f8ff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+    margin-bottom: 40px;
+    align-items: center; 
+    margin-top: 60px; 
+}
+
+.div4 img {
+    margin-right: 10px;
+}
+
+.div4 a {
+    color:#B4C7E7;
+    font-size: 22px;
+}
+
+.footerdiv3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footerdiv4 h3 {
+    color:#f4f8ff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 54px */
+    letter-spacing: -0.9px;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footerdiv4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+.footerdiv4 h4 {
+    color: #fff;
+    font-family: Cardo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: -0.24px;
+    padding-bottom: 25px;
+}
+
+.div4 {
+    margin-bottom: 43px;
 }

@@ -1,3 +1,10 @@
+@media (max-width:1209px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+
 @media (max-width:1075px) {
     nav {
         display: none;
@@ -27,12 +34,6 @@
         background-position:center;
         width: 450px;
         height: 550px;
-    }
-}
-
-@media (max-width:1110px) {
-    .container {
-        flex-wrap: wrap;
     }
 }
 
@@ -150,7 +151,7 @@
 
 }
 
-@media (max-width:385px) {
+@media (max-width:388px) {
     .book2 {
         background-size: cover;
         background-position:center;
@@ -261,7 +262,18 @@
     }
 }
 
-@media (max-width:285px) {
+@media (max-width:286px) {
+    .footerdiv4 h4 {
+        font-size: 17px;
+    }
+
+    .footerdiv4 span {
+        font-size: smaller;
+    }
+}
+
+
+@media (max-width:287px) {
     .book2 {
         width: 250px;
         height: 380px;
